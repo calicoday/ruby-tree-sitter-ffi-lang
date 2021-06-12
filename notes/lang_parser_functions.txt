@@ -1,0 +1,33 @@
+ivory:tree-sitter cal$ grep -R 'extern const TSLanguage *' tree-sitter-*
+tree-sitter-bash-master/src/parser.c:extern const TSLanguage *tree_sitter_bash(void) {
+tree-sitter-c-master/src/parser.c:extern const TSLanguage *tree_sitter_c(void) {
+tree-sitter-embedded-template-master/src/parser.c:extern const TSLanguage *tree_sitter_embedded_template(void) {
+tree-sitter-html-master/src/parser.c:extern const TSLanguage *tree_sitter_html(void) {
+tree-sitter-java-master/src/parser.c:extern const TSLanguage *tree_sitter_java(void) {
+tree-sitter-javascript-master/src/parser.c:extern const TSLanguage *tree_sitter_javascript(void) {
+tree-sitter-json-master/src/parser.c:extern const TSLanguage *tree_sitter_json(void) {
+tree-sitter-make-main/src/parser.c:extern const TSLanguage *tree_sitter_make(void) {
+tree-sitter-markdown-master/src/parser.c:extern const TSLanguage *tree_sitter_markdown(void) {
+-Binary file tree-sitter-master/node_modules/tree-sitter-cli/tree-sitter matches
+-tree-sitter-master/cli/src/generate/render.rs:            "extern const TSLanguage *{}(void) {{",
+tree-sitter-ruby-master/src/parser.c:extern const TSLanguage *tree_sitter_ruby(void) {
+-grep: tree-sitter-ruby-master/src/src: No such file or directory
+tree-sitter-rust-master/src/parser.c:extern const TSLanguage *tree_sitter_rust(void) {
+
+
+ivory:tree-sitter cal$ grep -R '_external_scanner_create() {' tree-sitter-*
+tree-sitter-bash-master/src/scanner.cc:void *tree_sitter_bash_external_scanner_create() {
+tree-sitter-html-master/src/scanner.cc:void *tree_sitter_html_external_scanner_create() {
+tree-sitter-javascript-master/src/scanner.c:void *tree_sitter_javascript_external_scanner_create() { return NULL; }
+tree-sitter-markdown-master/src/scanner.cc:void *tree_sitter_markdown_external_scanner_create() {
+-tree-sitter-master/test/fixtures/test_grammars/external_and_internal_tokens/scanner.c:void *tree_sitter_external_and_internal_tokens_external_scanner_create() {
+-tree-sitter-master/test/fixtures/test_grammars/external_and_internal_anonymous_tokens/scanner.c:void *tree_sitter_external_and_internal_anonymous_tokens_external_scanner_create() {
+-tree-sitter-master/test/fixtures/test_grammars/inverted_external_token/scanner.c:void *tree_sitter_inverted_external_token_external_scanner_create() { return NULL; }
+-tree-sitter-master/test/fixtures/test_grammars/external_tokens/scanner.c:void *tree_sitter_external_tokens_external_scanner_create() {
+-tree-sitter-master/test/fixtures/test_grammars/epsilon_external_tokens/scanner.c:void *tree_sitter_epsilon_external_tokens_external_scanner_create() {
+-tree-sitter-master/test/fixtures/test_grammars/external_extra_tokens/scanner.c:void *tree_sitter_external_extra_tokens_external_scanner_create() {
+-tree-sitter-master/test/fixtures/test_grammars/uses_current_column/scanner.c:void *tree_sitter_uses_current_column_external_scanner_create() {
+-tree-sitter-master/docs/section-3-creating-parsers.md:void * tree_sitter_my_language_external_scanner_create() {
+tree-sitter-ruby-master/src/scanner.cc:void *tree_sitter_ruby_external_scanner_create() {
+-grep: tree-sitter-ruby-master/src/src: No such file or directory
+tree-sitter-rust-master/src/scanner.c:void *tree_sitter_rust_external_scanner_create() { return NULL; }
