@@ -14,7 +14,7 @@ If you have installed:
 - [tree-sitter](https://github.com/tree-sitter/tree-sitter) runtime library 
 - this `libtree-sitter-ffi-lang` library
 - this `tree_sitter_ffi_lang` gem 
-- [tree-sitter](https://github.com/tree-sitter/tree-sitter) gem 
+- [ruby-tree-sitter-ffi](https://github.com/calicoday/ruby-tree-sitter-ffi) gem 
 
 then you should be able to run the demos and specs in the [ruby-tree-sitter-ffi](https://github.com/calicoday/ruby-tree-sitter-ffi)
 repo. The `libtree-sitter` and `libtree-sitter-ffi-lang` libraries must be compiled on your system. 
